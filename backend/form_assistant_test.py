@@ -18,5 +18,8 @@ inputs = [
 for input in inputs:
     print()
     print(input)
+    print()
     output = assistant.ask__question(input)
+    print()
     print(output["output"])
+    print("==================================================================")
